@@ -1122,7 +1122,7 @@ def create_map(
                 &nbsp;Census blocks outside travel time
             </p>
             <details style="margin-top:10px;">
-                <summary style="cursor:pointer; font-size:14px;"><b>Site types ({len(types_in_zip)})</b></summary>
+                <summary style="cursor:pointer; font-size:14px;"><b>Candidate sites by type ({len(types_in_zip)})</b></summary>
                 {type_rows}
             </details>
         </div>
@@ -1147,7 +1147,7 @@ def create_map(
             <p style="margin:0 0 8px 0; font-weight:bold; font-size:15px;">Map Legend</p>
             {demand_line}
             <details style="margin-top:10px;" open>
-                <summary style="cursor:pointer; font-size:14px;"><b>Site types ({len(types_in_zip)})</b></summary>
+                <summary style="cursor:pointer; font-size:14px;"><b>Candidate sites by type ({len(types_in_zip)})</b></summary>
                 {type_rows}
             </details>
         </div>
